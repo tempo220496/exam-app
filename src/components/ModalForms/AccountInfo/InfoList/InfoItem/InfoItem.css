@@ -1,0 +1,15 @@
+.about__item{
+    color: black;
+    padding: .25rem 0;
+    width: 270px;
+}
+.about__item>strong{
+    margin-right: .5rem;
+}
+.about__item>span{
+    margin-right: .5rem;
+    text-transform: uppercase;
+}
+.about__item>i{
+    color: black;
+}

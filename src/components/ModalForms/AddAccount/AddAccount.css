@@ -1,0 +1,123 @@
+.add__account{
+    background-image: radial-gradient(rgb(33, 84, 141),rgb(75, 121, 173),rgb(129, 172, 219));
+    padding: 1rem 2rem 1.5rem;
+    max-width: 1100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 16px #719DCD;
+}
+.add__account-form{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.705);
+}
+.add__account .close__contact{
+    color: #D2691E;
+}
+.add__account_info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1050px;
+}
+.add__account_form{
+    max-width: 1050px;
+}
+.add_account_inputs{
+    max-width: 700px;
+}
+.add_account_inputs div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.add_account_inputs div div{
+    display: block;
+}
+.add__account_form p{
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+}
+.add__account_form p i{
+    color: rgb(255, 255, 255);
+}
+.add__account .contact__buttons{
+    margin: 0 auto;
+}
+.add__account_ability{
+    width: 120px;
+    border-radius: 5px;
+    padding: 0.6rem 0;
+    margin-left: 135px;
+}
+#addaccount{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    text-align: center;
+}
+.add__account_desc{
+    width: 320px;
+}
+.add__account .contact__input{
+    width: 161px;
+}
+.add__account_text{
+    width: 320px;
+    height: 80px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+.add__account_list{
+    width: 320px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    overflow-y: auto;
+    box-sizing: border-box;
+    border: 1px solid rgb(49, 0, 165);
+    padding: .5rem;
+}
+.add__account_item{
+    padding: 0.4rem 1.6rem;
+    background-color: floralwhite;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.add__account_buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 0;
+}
+.add__account_list-item{
+    width: 302px;
+    border-bottom: 1px solid black;
+    padding: 0 0 .1rem;
+}
+input[type="file"]{
+    display: none;
+}
+#file__label{
+    color: white;
+    height: 40px;
+    width: 200px;
+    background-color: #f5af09;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family: "Montserrat",sans-serif;
+    border-radius: 5px;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.add__account-info h1{
+    max-width: 320px;
+    font-size: 1.5rem;
+}

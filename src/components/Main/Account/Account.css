@@ -1,0 +1,72 @@
+.account{
+    max-width: 370px;
+    height: 390px;
+    text-align: center;
+    background-color: rgba(12, 54, 70, 0.486);
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    border: 1px solid wheat;
+    overflow:hidden;
+}
+.account__img{
+    max-width: 370px;
+    border-radius: 15px 15px 0 0;
+}
+@media screen and (max-width:370px){
+    .account,.account__img{
+        width: 320px;
+    }
+    .acc__info{
+        justify-content: flex-start !important;
+        margin-left: 2rem;
+    }
+    .acc__choice{
+        padding-top: .5rem !important;
+    }
+    .account{
+        height: 420px;
+    }
+}
+.account__about{
+    color: #fff;
+    text-decoration: none;
+    background-color: #C15A56;
+    padding: 0.5rem 1.25rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.account__about:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: .3s;
+}
+.acc__info{
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
+}
+.acc__info>div{
+    display: inherit;
+    flex-direction: column;
+    text-align: left;
+    overflow: auto;
+}
+.acc-desc{
+    color: rgb(252, 252, 252);
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+.acc-price{
+    color: #fff;
+    background-color: #3F739D;
+    padding: 0.5rem 1.25rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.acc__choice{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}

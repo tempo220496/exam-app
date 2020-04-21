@@ -1,0 +1,32 @@
+.news__header{
+    background-image: url('../../assets/img/lords_mobile2.jpg');
+    height: 620px;
+    background-repeat: no-repeat;
+    background-position: 0 90px;
+    color: white;
+    background-size: 100%;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    border-bottom: 3px solid teal;
+}
+.header__title{
+    margin-top: 9rem;
+    font-family: 'proxima-nova';
+    font-size: 6rem;
+    color: transparent;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    background-position: 0;
+    background-clip: text;
+}
+.header__intro{
+    font-family: 'lato-normal';
+    color: transparent;
+    font-size: 3rem;
+    background-color: rgb(98, 243, 130);
+    background-position: 0;
+    background-clip: text;
+}
+.header__img{
+    max-width: 1000px;
+}

@@ -1,0 +1,97 @@
+.contact{
+    background-image: radial-gradient(rgb(126, 190, 186) 20%,rgb(165, 212, 209) 70%,rgb(255, 255, 255));
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 800px;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 16px rgba(255, 255, 255, 0.76);
+    padding: 0 6rem;
+}
+.contact__background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: hsla(0, 0%, 0%, 0.705);
+}
+.contact__row{
+    display: flex;
+    justify-content: center;
+}
+.contact__title{
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    font-family: 'lato-normal';
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+.contact__title>small{
+    font-size: 50%;
+    border-bottom: 1px solid #000;
+}
+.contact__form{
+    display: flex;
+    flex-direction: column;
+}
+.contact__form p{
+    margin: 0.2rem 0;
+}
+.contact__input{
+    width: 322px;
+    box-sizing: border-box;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    padding-left: 1rem;
+}
+.contact__input_text{
+    height: 104px;
+    padding-top: 0.5rem;
+}
+.contact__send{
+    text-decoration: none;
+    color: white;
+    border-color: #eea236;
+    background-color: #f0ad4e;
+    text-align: center;
+    border-radius: 5px;
+    padding: .3rem 2.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: .3s;
+}
+.contact__send:hover{
+    background-color: white;
+    color: black;
+}
+.contact__buttons{
+    max-width: 322px;
+    display: flex;
+    margin: auto;
+}
+.contact_cancel{
+    margin-right: 1rem;
+    background-color: chocolate;
+}
+.close__contact{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(5, 126, 69);
+    transition: .1s;
+}
+.close__contact:hover{
+    transform: scale(1.2,1.2);
+    color: rgb(230, 166, 29);
+    transition: 0;
+}

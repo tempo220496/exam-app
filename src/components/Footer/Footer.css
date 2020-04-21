@@ -1,0 +1,30 @@
+.footer{
+    border-top: 5px solid teal;
+    background-color: #111111;
+    display: flex;
+    padding: 2rem 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:560px){
+    .footer{
+        justify-content: center;
+    }
+}
+.footer__logo{
+    max-width: 400px;
+}
+.footer__nav_link{
+    color: white;
+    text-decoration: none;
+}
+.footer__list{
+    width: 200px;
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer__item{
+    border-bottom: 1px solid white;
+    padding: 0.5rem 0;
+    width: 200px;
+}

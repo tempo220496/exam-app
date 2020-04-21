@@ -1,0 +1,35 @@
+.top__line{
+    max-width: 100%;
+    padding: 1rem 0;
+    background-color: teal;
+}
+.top__line_nav{
+    max-width: 1275px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top__logo{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+.top__list{
+    list-style-type: none;
+    padding-left: 0;
+    margin-right: 2rem;
+}
+.top__item{
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+.top__link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+.top__link:hover{
+    cursor: pointer !important;
+    color: blue;
+}
